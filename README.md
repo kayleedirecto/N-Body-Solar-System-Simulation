@@ -6,7 +6,7 @@ This was the personal project I did for my Scientific Computing course in 2021. 
 
 We can predict the orbital motions of these objects by determining their instantaneous positions and velocities at any given time from their interactive forces. 
 
-The gravitational force of attraction between to planets is the net force causing a planet to orbit around a source planet. Using Newton's first law, we can use the gravitational force to determine the acceleration the orbiting planet experiences at any given time. From the acceleration, we can obtain the instantaneous velocity and position of the planet, to plot its orbit. 
+The gravitational force of attraction between two planets is the net force causing a planet to orbit around a source planet. Using Newton's first law, we can use the gravitational force to determine the acceleration the orbiting planet experiences at any given time. From the acceleration, we can obtain the instantaneous velocity and position of the planet, to plot its orbit. 
 
 The gravitational force between two objects is given by:
 
