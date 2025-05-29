@@ -78,16 +78,26 @@ I summed the total kinetic and potential energy of the solar system at each time
 
 ## The Fun Part  
 
-As a fun addition, I decided to add a 10th body - a comet. I modeled it after a real comet, Oumuamua. Below we can see the path the simulation predicted and the actual path of the comet. 
+As a fun addition, I decided to add a 10th body - a comet. This script can be found in extension.cpp. I modeled it after a real comet, Oumuamua. Below we can see the path the simulation predicted and the actual path of the comet. 
 
 <img width="400" alt="Screenshot 2025-05-29 at 1 37 01 PM" src="https://github.com/user-attachments/assets/02078898-db28-46ac-ae86-e67c57d6debf" />
 
 ![image](https://github.com/user-attachments/assets/2e1c2c90-de58-4543-96f1-0e174e1e6985)
 
+I wanted to experiment with different masses of the comet, to see how its path would change. The mass of Oumuamua is on the order of $10^4$ kg. Increasing this to around $10^25$ kg caused the angle between its entry annd exit to decrease. Intuitively this makes sense, as larger masses would experience a greater pull from the sun's gravitational force, causing it to ricochet out of the solar system closer to its path of entry. 
 
+<img width="400" alt="Screenshot 2025-05-29 at 1 53 42 PM" src="https://github.com/user-attachments/assets/989338b7-a624-4251-81cd-7f9914045089" />
 
+The simulation began to break down when the mass was increased to $10^26$ kg. 
 
+<img width="400" alt="Screenshot 2025-05-29 at 1 54 36 PM" src="https://github.com/user-attachments/assets/13e7c86d-4f5c-4f91-919e-5cc19381c0b1" />
 
+I continued increasing the mass to observe interesting outcomes. At $10^27$ kg: 
 
+<img width="400›" alt="Screenshot 2025-05-29 at 1 55 42 PM" src="https://github.com/user-attachments/assets/0938ac8c-4119-43f3-9be4-91a520c9b472" />
 
+At $10^30# kg: 
 
+<img width="400" alt="Screenshot 2025-05-29 at 1 56 07 PM" src="https://github.com/user-attachments/assets/36def2ad-f115-4a45-86b7-87da6ecc8a8f" />
+
+Let's hope we never find out if this is an accurate simulation or not. 
