@@ -26,7 +26,7 @@ $a_o = \frac{G{m_s}}{r^2}$
 
 We see that the acceleration of the orbiting planet now only depends on the mass of the source planet, the gravitational constant, and the square of the distance between them. 
 
-We can now solve for the velocity and position of the orbiting planet at a given instant. As acceleration is the first deriva†ive of velocity, we can substitute this in the equation to get: 
+We can now solve for the velocity and position of the orbiting planet at a given instant. As acceleration is the first derivative of velocity, we can substitute this in the equation to get: 
 
 $\frac{dv_x}{dt} = \frac{G{m_s}}{{r_x}^2}$
 
