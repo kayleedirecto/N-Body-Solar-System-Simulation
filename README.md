@@ -30,6 +30,20 @@ $\frac{dv_x}{dt} = \frac{G{m_s}}{{r_x}^2}$
 
 $\frac{dv_y}{dt} = \frac{G{m_s}}{{r_y}^2}$
 
+And using the fact that velocity is the first derivative of the position, we get: 
+
+$\frac{dx}{dt} = v_x$
+
+$\frac{dy}{dt} = v_y$
+
+We now have a series of differential equations for the position and velocities of the orbiting planet. 
+
+## The Method 
+
+To solve these differential equations, I used leapfrog integration. In this method, the initial acceleration at timestep t = 0 is calculated. Using this acceleration, the velocity at a half timestep, t = 1/2,  is calculated, which is then used to calculate the position at a full timestep, t = 1. The velocity is then "caught up" to a full timestep by using the acceleration at the full timestep, t = 1. This repeats over all timsteps. In this way, the position and velocity "leapfrog" over each other, which gives relatively accurate integrations. The algorithm can be mathematically written as: 
+
+$v_{i+\frac{1}{2}} = v_i + {a_i}\frac{\Delta}{2}$
+
 
 
 
