@@ -98,7 +98,7 @@ I continued increasing the mass to observe interesting outcomes. At $10^{27}$ kg
 
 <img width="400›" alt="Screenshot 2025-05-29 at 1 55 42 PM" src="https://github.com/user-attachments/assets/0938ac8c-4119-43f3-9be4-91a520c9b472" />
 
-At $10^{30}# kg: 
+At $10^{30}$ kg: 
 
 <img width="400" alt="Screenshot 2025-05-29 at 1 56 07 PM" src="https://github.com/user-attachments/assets/36def2ad-f115-4a45-86b7-87da6ecc8a8f" />
 
