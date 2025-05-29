@@ -70,7 +70,7 @@ We can see the full solar system here:
 
 ## The Sanity Checks 
 
-Although my results looked accurate, I wanted to perform checks on the energy and momentum on the system. Assuming this is a closed system, the total energy and momentum should stay constant throughout the simulation. These checks can be found in energy.cpp. 
+Although my results looked accurate, I wanted to perform checks on the energy and momentum of the system. Assuming this is a closed system, the total energy and momentum should stay constant throughout the simulation. These checks can be found in energy.cpp. 
 
 I summed the total kinetic and potential energy of the solar system at each timestep, and ensure the value remained constant. The same was done for the linear momentum. We see below that energy and momentum are relatively constant, with slight oscillations, possibly due to round off or precision errors from the leapfrog integration. 
 
