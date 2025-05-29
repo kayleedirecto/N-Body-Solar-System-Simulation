@@ -8,6 +8,6 @@ To plot each planet's orbit, we needed the instantaneous $x$ and $y$ velocities 
 
 The gravitational force of attraction between two plants is the net force that causes a planet to orbit a source planet. Setting Netwon's first law and law of universal gravitation equal to each other, we obtain:
 
-  F = ma 
-  G
+F = m}a 
+\frac{G{m_s}{m_o}}{r^2}
 
