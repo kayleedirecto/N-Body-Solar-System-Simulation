@@ -16,9 +16,24 @@ Subbing this in to Newton's first law:
 
 $F_g = ma$ 
 
-$\frac{G{m_s}{m_o}}{r^2} = {m_o}a$ 
+$\frac{G{m_s}{m_o}}{r^2} = {m_o}{a_o}$ 
 
-Note that the left hand side acceleration is associated with the orbiting mass, $m_o$, and not the source planet. 
+Note that the left hand side acceleration, $a_o$, is associated with the orbiting mass, $m_o$. Now simplifying, 
+
+$a_o = \frac{G{m_s}}{r^2}$
+
+We see that the accleration of the orbiting planet now only depends on the mass of the source planet, the gravitational constant, and the square of the distance between them. 
+
+We can now solve for the velocity and position of the orbiting planet at a given instant. As acceleration is the first deriva†ive of velocity, we can substitute this in the equation to get: 
+
+$/frac{dv_x}{dt} = \frac{G{m_s}}{{r_x}^2}$
+
+$/frac{dv_y}{dt} = \frac{G{m_s}}{{r_y}^2}$
+
+
+
+
+
 
 
 
