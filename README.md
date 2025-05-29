@@ -42,7 +42,7 @@ We now have a series of differential equations for the position and velocities o
 
 To solve these differential equations, I used leapfrog integration. In this method, the initial acceleration at timestep t = 0 is calculated. Using this acceleration, the velocity at a half timestep, t = 1/2,  is calculated, which is then used to calculate the position at a full timestep, t = 1. The velocity is then "caught up" to a full timestep by using the acceleration at the full timestep, t = 1. This repeats over all timsteps. In this way, the position and velocity "leapfrog" over each other, which gives relatively accurate integrations. The algorithm can be mathematically written as: 
 
-$v_{i+\frac{1}{2}} = v_i + {a_i}\frac{\Delta}{2}$
+$v_{i+\frac{1}{2}} = v_i + {a_i}\frac{\Deltat}{2}$
 
 
 
