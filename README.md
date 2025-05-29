@@ -44,6 +44,10 @@ To solve these differential equations, I used leapfrog integration. In this meth
 
 $v_{i+\frac{1}{2}} = v_i + {a_i}\frac{\Delta t}{2}$
 
+$x_{i+1} = x_i + v_i + \frac{\Delta t}{2}$
+
+$v_{i+1} = v_{i + \frac{1}{2}} + {a_{i + 1}}\frac{\Delta t}{2}$
+
 
 
 
