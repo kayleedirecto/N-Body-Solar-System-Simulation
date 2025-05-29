@@ -50,7 +50,7 @@ $x_{i+1} = x_i + v_i + \frac{\Delta t}{2}$
 
 $v_{i+1} = v_{i + \frac{1}{2}} + {a_{i + 1}}\frac{\Delta t}{2}$
 
-To model the whole solar system and account for the interactions of the orbiting planet with the other 8 planets plus the sum, I summed the acceleration due to the gravitational force between the orbiting planet and each source mass. 
+To model the whole solar system and account for the interactions of the orbiting planet with the other 7 planets plus the sun, I summed the acceleration due to the gravitational force between the orbiting planet and each source mass. 
 
 ## The Results 
 
