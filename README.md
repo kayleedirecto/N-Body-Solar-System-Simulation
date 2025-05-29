@@ -50,7 +50,7 @@ $v_{i+1} = v_{i + \frac{1}{2}} + {a_{i + 1}}\frac{\Delta t}{2}$
 
 To model the whole solar system and account for the interactions of the orbiting planet with the other 8 planets plus the sum, I summed the acceleration due to the gravitational force between the orbiting planet and each source mass. 
 
-## Results 
+## The Results 
 
 The main simulation with the solar system in its entirety can be found in final.cpp. 
 
@@ -66,8 +66,27 @@ We can see the full solar system here:
 
 <img width="400" alt="Screenshot 2025-05-29 at 1 26 23 PM" src="https://github.com/user-attachments/assets/5c5a05e8-aa92-47a1-935d-da3e97a82ff6" />
 
+## The Sanity Checks 
 
- 
+Although my results looked accurate, I wanted to perform checks on the energy and momentum on the system. Assuming this is a closed system, the total energy and momentum should stay constant throughout the simulation. These checks can be found in energy.cpp. 
+
+I summed the total kinetic and potential energy of the solar system at each timestep, and ensure the value remained constant. The same was done for the linear momentum. We see below that energy and momentum are relatively constant, with slight oscillations, possibly due to round off or precision errors from the leapfrog integration. 
+
+<img width="400" alt="Screenshot 2025-05-29 at 1 33 43 PM" src="https://github.com/user-attachments/assets/b85e8c94-da86-4777-8fca-d4c34922e37e" />
+
+<img width="400" alt="Screenshot 2025-05-29 at 1 33 55 PM" src="https://github.com/user-attachments/assets/f24774ed-5061-466b-ad34-1b3e7299b013" />
+
+## The Fun Part  
+
+As a fun addition, I decided to add a 10th body - a comet. I modeled it after a real comet, Oumuamua. Below we can see the path the simulation predicted and the actual path of the comet. 
+
+<img width="400" alt="Screenshot 2025-05-29 at 1 37 01 PM" src="https://github.com/user-attachments/assets/02078898-db28-46ac-ae86-e67c57d6debf" />
+
+![image](https://github.com/user-attachments/assets/2e1c2c90-de58-4543-96f1-0e174e1e6985)
+
+
+
+
 
 
 
