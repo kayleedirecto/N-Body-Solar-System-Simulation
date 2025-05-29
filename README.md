@@ -12,6 +12,8 @@ The gravitational force between two objects is given by:
 
 $F_g = \frac{G{m_s}{m_o}}{r^2}$
 
+where $m_s$ is the mass of the source planet, $m_o$ is the mass of the orbiting planet, $r$ is the distance between them, and $G$ is the universal gravitational constant. 
+
 Subbing this in to Newton's first law: 
 
 $F_g = ma$ 
