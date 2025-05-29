@@ -48,9 +48,13 @@ $x_{i+1} = x_i + v_i + \frac{\Delta t}{2}$
 
 $v_{i+1} = v_{i + \frac{1}{2}} + {a_{i + 1}}\frac{\Delta t}{2}$
 
+To model the whole solar system and account for the interactions of the orbiting planet with the other 8 planets plus the sum, I summed the acceleration due to the gravitational force between the orbiting planet and each source mass. 
 
+## Results 
 
+I first plotted Mercury's orbit around the sun. We can see an accurate elliptical shaped orbit, as well as the presence of its perihelion (point in theo rbit where it is closest to the sun) and its aphelion (point where it is farthest from the sun). 
 
+<img width="661" alt="Screenshot 2025-05-29 at 1 10 20 PM" src="https://github.com/user-attachments/assets/819040a2-e2de-47bf-a164-4fd8ef182f51" />
 
 
 
